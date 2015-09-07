@@ -1,0 +1,552 @@
+body {
+	background-image:url(../../models/UI/global_imgs/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-size: 12px;
+	font-family: Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	line-height: 1.5em;
+	color: #000;
+	letter-spacing: 0.2px;
+	background-color: #F7F7F7;
+}
+
+h1 {
+	font-size: 30px;
+	color: #0291CD;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	line-height: 30px;
+}
+
+h2 {
+	font-size: 22px;
+	color: #F60;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+p {
+	padding-bottom: 5px;
+}
+ *::-moz-selection {
+background-color:#333;
+color:#FFF;
+}
+
+    ::selection {
+background-color:#333;
+color:#FFF;
+}
+
+ol {
+	list-style: decimal inside;
+	padding-bottom: 10px;
+}
+
+ol li {
+	padding-top: 5px;
+}
+
+hr {
+	border-top-width:1px;
+	clear:both;
+	height:0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #EEE;
+	border-right-color: #EEE;
+	border-bottom-color: #EEE;
+	border-left-color: #EEE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*Header, Navigation and Splash*/
+#top {
+	height: 100px;
+	background-image: url(../../models/UI/global_imgs/mydevwares.header_bg.jpg);
+}
+
+#search {
+	padding: 5px;
+	background-color: #F1F5F6;
+	border: 1px solid #C8D7DC;
+	color: #666;
+}
+
+#searchform {
+	width: 200px;
+	float: right;
+}
+
+#emailsub {
+	text-align: center;
+	padding-top: 10px;
+}
+
+#footer {
+	background-color: #333;
+	height: 200px;
+	color: #F0F0F0;
+	text-align: left;
+	padding-top: 15px;
+}
+
+#footer h2 {
+	font-size: 16px;
+	color: #0291CD;
+}
+
+#email {
+	background-color: #FFFFA0;
+	border: 1px solid #CCC;
+	color: #000;
+	padding: 5px;
+	font-size: 1.2em;
+	background-image: url(../../models/UI/global_imgs/formgradient.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	text-align: center;
+}
+
+.nav {
+	background-color: #179ed6;
+	height: 40px;
+	width: 940px;
+	float:right;
+}
+
+#navwrap {
+	height: 30px;
+	float: right;
+	margin-top: 70px;
+	color: white;
+	list-style-type:none;
+}
+
+.navitem {
+	clear: right;
+	float: left;
+	height: 30px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+	color: #FFF;
+	text-decoration: none;
+	padding-top: 8px;
+	width: 151px;
+	text-align: center;
+}
+
+#nav li:hover {
+	background-image: url(../../models/UI/global_imgs/nav.active_btn.gif);
+	background-repeat: no-repeat;
+}
+
+.navitem a {
+	font-size: 1.4em;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navitem a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+#nav #howitworksBTN {
+	margin-right: 10px;
+}
+
+#nav #makemoneyBTN {
+	margin-right: 10px;
+}
+
+#nav #registerBTN {
+}
+
+#nav #marketplaceBTN {
+	margin-right: 10px;
+}
+
+#top img {
+	clear: left;
+	float: left;
+}
+
+#blue_splash {
+	height: 245px;
+}
+
+#grey_splash {
+	height: 90px;
+	padding-bottom: 5px;
+}
+
+/*Content Wrapper*/
+#maincontent {
+	padding-bottom: 15px;
+}
+
+/**Post Styling*/
+.postWhole {
+	background-color: #FBFBFB;
+	width: 580px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #EBEBEB;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #EBEBEB;
+	border-left-color: #CCCCCC;
+	height: 86px;
+	font-family: Cambria, Gentium, Georgia, "Times New Roman", serif;
+	font-size: 0.8em;
+	margin: 5px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.postTitle a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.1em;
+	color: #000;
+	text-decoration: none;
+}
+
+.postTitle a:hover {
+	text-decoration: underline;
+	color:#333;
+}
+
+.postWhole:hover {
+	background-color: #F4F4F4;
+}
+
+.postTitle {
+	margin-bottom: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.postMetaData {
+	padding-bottom: 2px;
+	text-align: right;
+	color: #666666;
+	float: left;
+	clear: right;
+}
+
+.postExcerpt {
+	color: #333333;
+	padding-top: 7px;
+	float: left;
+	width: 430px;
+}
+
+.thumb {
+	clear: left;
+	float: left;
+	height: 80px;
+	width: 80px;
+	padding-top: 3px;
+	padding-right: 15px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+
+.cat a {
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+.cat a:hover {
+	color: #0099CC;
+	text-decoration: none;
+}
+
+.postPriceData {
+	float: right;
+}
+
+.postPriceData .Price {
+	float: left;
+	font-weight: bold;
+	vertical-align: middle;
+	color: #009933;
+	font-size: 1em;
+}
+
+.postMetaData .author a, .postMetaData .verified a {
+	font-family:inherit;
+	text-decoration:none;
+	color:inherit;
+}
+
+.postMetaData .author a:hover, .postMetaData .verified a:hover {
+	text-decoration:underline;
+}
+
+/*Image Hover Tooltip*/
+#preview {
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+}
+
+/*Notification Boxes*/
+.info, .success, .warning, .error, .validation {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding:15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+
+.info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../../models/UI/global_imgs/info.png');
+}
+
+.success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../../models/UI/global_imgs/success.png');
+}
+
+.warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('../../models/UI/global_imgs/warning.png');
+}
+
+.error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../../models/UI/global_imgs/error.png');
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---- global settings needed for thickbox <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.advantage_item {
+
+}
+
+.advantage_item img {
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	clear: none;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---- thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+#TB_window a:link {
+	color: #666666;
+}
+
+#TB_window a:visited {
+	color: #666666;
+}
+
+#TB_window a:hover {
+	color: #000;
+}
+
+#TB_window a:active {
+	color: #666666;
+}
+
+#TB_window a:focus {
+	color: #666666;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---- thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index:100;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+}
+
+.TB_overlayMacFFBGHack {
+	background: url(macFFBgHack.png) repeat;
+}
+
+.TB_overlayBG {
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+	position: absolute;
+ height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	border: 4px solid #525252;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+
+* html #TB_window { /* ie6 hack */
+	position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_window img#TB_Image {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption {
+	height:25px;
+	padding:7px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow {
+	height:25px;
+	padding:11px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow {
+	padding:7px 10px 5px 0;
+	margin-bottom:1px;
+	text-align:right;
+	float:right;
+}
+
+#TB_ajaxWindowTitle {
+	float:left;
+	padding:7px 0 5px 10px;
+	margin-bottom:1px;
+}
+
+#TB_title {
+	background-color:#e8e8e8;
+	height:27px;
+}
+
+#TB_ajaxContent {
+	clear:both;
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+	text-align:left;
+	line-height:1.4em;
+}
+
+#TB_ajaxContent.TB_modal {
+	padding:15px;
+}
+
+#TB_ajaxContent p {
+	padding:5px 0px 5px 0px;
+}
+
+#TB_load {
+	position: fixed;
+	display:none;
+	height:13px;
+	width:208px;
+	z-index:103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+	position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+
+#TB_HideSelect {
+	z-index:99;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	border:none;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height:100%;
+	width:100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+	position: absolute;
+ height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+#TB_iframeContent {
+	clear:both;
+	border:none;
+	margin-bottom:-1px;
+	margin-top:1px;
+	_margin-bottom:1px;
+}
+
+.content_bg {
+	border: 1px solid #EAEAEA;
+	background-color: #FFF;
+	padding: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
