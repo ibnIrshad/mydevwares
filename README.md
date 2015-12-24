@@ -660,17 +660,3 @@ Appendixes
   31        84%   o    No flat fee or signup fee, but the service can take 5-10% commission of sale from the seller.
   1         3%    o    10-20% commission of sale from the seller.
 ```
-### Comments I received
-
-Person 1: I like your idea a lot, but you need to make sure that your
-site looks good and fits well with the high standards of web dev crowd.
-Use a lot of advanced coding techniques and everything so it really
-exceeds the existing marketplaces and actually gives me a reason to
-switch.
-
-Person 2: How exactly are you going to make the marketplace system
-“safer”? I hope that there the buyer is able to instantly access the
-files that he bought, and seller does not have to worry about fraud.
-This will make a big difference, and if I can be 100% assured that my
-transactions are instant, safe, and without hassle, I would definitely
-use your service.
